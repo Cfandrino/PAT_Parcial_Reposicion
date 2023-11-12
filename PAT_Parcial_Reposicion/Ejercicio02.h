@@ -1,10 +1,11 @@
-#pragma once
+#ifndef EJERCICIO02_H
+#define EJERCICIO02_H
 
 #include "Node.h"
 
-class Ejercicio02
-{
+class Ejercicio02 {
 public:
-	Node<char>* reverseKGroup(Node<char>* head, int k);
+    Node* reverseKGroup(Node* head, int k);
 };
 
+#endif

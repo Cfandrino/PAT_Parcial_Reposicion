@@ -1,9 +1,11 @@
-#pragma once
+#ifndef EJERCICIO01_H
+#define EJERCICIO01_H
 
 #include "Node.h"
 
-class Ejercicio01
-{
+class Ejercicio01 {
 public:
-	Node<int>* addTwoNumbers(Node<int>* l1, int sizeL1, Node<int>* l2, int sizeL2);
+    Node* sumarListas(Node* l1, int tamanoL1, Node* l2, int tamanoL2);
 };
+
+#endif
